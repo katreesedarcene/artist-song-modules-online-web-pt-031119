@@ -1,4 +1,4 @@
-require_relative '../lib/concerns/paramable'
+# require_relative '../lib/concerns/paramable'
 module Paramable 
  module InstanceMethods
     def to_param
