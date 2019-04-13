@@ -10,6 +10,9 @@ class Artist
   include Paramable::InstanceMethods
 
   @@artists = []
+  def initialize 
+    super
+    @songs = []
 
  
   def self.find_by_name(name)
