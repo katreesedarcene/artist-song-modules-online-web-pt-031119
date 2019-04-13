@@ -1,4 +1,4 @@
-require_relative '../lib/concerns/memorable'
+# require_relative '../lib/concerns/memorable'
 module Memorable
   module ClassMethods
     def reset_all
