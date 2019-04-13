@@ -25,8 +25,8 @@ class Artist
     song.artist = self unless song.artist
   end
 
-  # def add_songs(songs)
-  #   songs.each { |song| add_song(song) }
-  # end
+  def add_songs(songs)
+    songs.each { |song| add_song(song) }
+  end
 
 end
