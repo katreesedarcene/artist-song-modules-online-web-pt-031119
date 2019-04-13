@@ -1,4 +1,4 @@
-
+require_relative '../lib/concerns/findable'
 module Findable
   module ClassMethods
     
