@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 require_relative '../lib/artist.rb'
 class Artist
   attr_accessor :name
