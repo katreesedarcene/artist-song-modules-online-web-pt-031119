@@ -1,5 +1,5 @@
 require 'pry'
-require_relative '../lib/song'
+require_relative '../lib/song.rb'
 class Song
   attr_accessor :name
   attr_reader :artist
